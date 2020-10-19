@@ -1,0 +1,27 @@
+{
+  "name": "yt_graphql_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "graphql-constraint-directive": "^2.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "merge": "^1.2.1",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.5",
+    "uuid": "^8.3.1"
+  }
+}
